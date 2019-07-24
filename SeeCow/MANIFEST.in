@@ -1,0 +1,6 @@
+include LICENSE
+include seecow/schema.sql
+graft seecow/static
+graft seecow/templates
+graft tests
+global-exclude *.pyc
